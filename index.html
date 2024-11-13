@@ -2,10 +2,14 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://cdn.jsdelivr.net/gh/XiaoYuan151/Repo/">
-    <title>Redirecting...</title>
+    <script type="text/javascript">
+        var currentUrl = window.location.pathname + window.location.search;
+        var targetUrl = "https://cdn.jsdelivr.net/gh/XiaoYuan151/Repo" + currentUrl;
+        window.location.href = targetUrl;
+    </script>
+    <title>正在重定向...</title>
 </head>
 <body>
-    <p>如果没有自动跳转，请点击 <a href="https://cdn.jsdelivr.net/gh/XiaoYuan151/Repo/">这里</a>.</p>
+    <p>如果没有自动跳转，请点击 <a href="https://cdn.jsdelivr.net/gh/XiaoYuan151/Repo/">这里</a>。</p>
 </body>
 </html>
